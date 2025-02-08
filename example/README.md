@@ -15,3 +15,4 @@ Note the folder was created:<br><br>
 ![](../images/6.png)<br><br>
 And there is a "year_month.csv" file:<br><br>
 ![](../images/7.png)<br><br>
+![](../images/8.png)
