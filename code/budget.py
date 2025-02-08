@@ -43,6 +43,14 @@ class Budget:
             print("Your expense is successfully entered!")
         wb.save('Budget.xlsx')
         wb.close()
+        wb = xsl.load_workbook('Budget.xlsx', data_only=True)
+        ws = wb['Data']
+        for i in range(4, 36):
+            ws[f"E{i}"].value = f'=C{i}-D{i}'
+        ws[f"C35"].value = '=SUM(C4:C34)'
+        ws[f"D35"].value = '=SUM(D4:D34)'
+        wb.save('Budget.xlsx')
+        wb.close()
         DB.add_action(db, date, income, income_category, expense, expense_category)
         if (date_dt + timedelta(days=1)).month == date_dt.month + 1:
             return print("Today is the last day of the month!\nWould you like to start a new month?")
@@ -64,6 +72,8 @@ class Budget:
         wb = xsl.load_workbook('Budget.xlsx', data_only=True)
         ws = wb['Data']
         total = ws["E35"].value
+        if not total:
+            total = 0
         values = [.0] * 12
         values[cur_month] = total
         DB.add_month(db, cur_year, values)
