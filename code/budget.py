@@ -43,7 +43,7 @@ class Budget:
             print("Your expense is successfully entered!")
         wb.save('Budget.xlsx')
         wb.close()
-        wb = xsl.load_workbook('Budget.xlsx', data_only=True)
+        wb = xsl.load_workbook('Budget.xlsx')
         ws = wb['Data']
         for i in range(4, 36):
             ws[f"E{i}"].value = f'=C{i}-D{i}'
