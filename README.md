@@ -21,13 +21,3 @@ python code\main.py
 ```
 
 and follow the instructions on the screen.
-
-## Tests
-
-Write
-
-```commandline
-pytest .
-```
-
-in the command line, in order to test the program.
