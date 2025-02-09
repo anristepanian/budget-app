@@ -36,4 +36,4 @@ and follow the instructions on the screen.<br><br>
 The project was developed by [Anri Stepanian](https://github.com/anristepanian)
 
 ## License
-[Apache-2.0 license](LICENSE)
+[Apache License v2.0](LICENSE)
