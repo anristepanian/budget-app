@@ -34,3 +34,6 @@ and follow the instructions on the screen.<br><br>
 ## Author
 
 The project was developed by [Anri Stepanian](https://github.com/anristepanian)
+
+## License
+[Apache](LICENSE)
