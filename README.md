@@ -7,7 +7,11 @@ A budgeting app is designed to help users optimize their spending and savings ch
 - The Budget Tracker application was built using `Python version 3.11.5`.
 
 [//]: <> (## User Actions)
-[//]: <> (## TO-DO)
+## TO-DO
+
+- Complete README.md
+- Complete test.py
+- Complete Anlalysis module
 
 ## Installation
 
