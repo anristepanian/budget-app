@@ -8,7 +8,7 @@ A budgeting app is designed to help users optimize their spending and savings ch
 
 [//]: <> (## User Actions)
 ## TO-DO
-In order to end this project, there is left:<br>
+In order to end this project, there is left to:<br>
 - Complete README.md
 - Complete test.py
 - Complete Anlalysis module
