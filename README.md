@@ -29,7 +29,7 @@ python code/main.py
 
 and follow the instructions on the screen.<br><br>
 > [!TIP]
-> You can check an [example](exaple)
+> You can check an [example](example)
 
 ## Author
 
